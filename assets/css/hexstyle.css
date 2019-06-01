@@ -119,7 +119,7 @@ body{
   top:50%;
   padding-top:10%;
 }
-#emailBtn{
+.emailBtn{
   position:fixed;
   top:0;
   left:0;
@@ -131,7 +131,7 @@ body{
   transition: color .5s;
   overflow:hidden;
 }
-#emailBtn:before {
+.emailBtn:before {
   content: '';
   position: absolute;
   top: 0; left: 0;
@@ -142,10 +142,10 @@ body{
   transform:translateX(-100%) skewX(-45deg);
   transition: transform .5s;
 }
-#emailBtn:hover {
+.emailBtn:hover {
   color: #fff;
 }
-#emailBtn:hover:before {
+.emailBtn:hover:before {
   transform: translateX(0) skewX(-45deg);
 }
 
